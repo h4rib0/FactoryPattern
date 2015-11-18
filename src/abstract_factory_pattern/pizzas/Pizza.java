@@ -8,6 +8,7 @@ import abstract_factory_pattern.incrediences.sauce.Sauce;
 import abstract_factory_pattern.incrediences.veggies.Veggies;
 
 public abstract class Pizza {
+
     String name;
 
     Dough dough;

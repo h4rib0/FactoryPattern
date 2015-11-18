@@ -15,8 +15,7 @@ import abstract_factory_pattern.incrediences.veggies.Eggplant;
 import abstract_factory_pattern.incrediences.veggies.Spinach;
 import abstract_factory_pattern.incrediences.veggies.Veggies;
 
-public class ChicagoPizzaIngredientFactory
-        implements PizzaIngredientFactory {
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
     public Dough createDough() {
         return new ThickCrustDough();
@@ -31,9 +30,7 @@ public class ChicagoPizzaIngredientFactory
     }
 
     public Veggies[] createVeggies() {
-        Veggies veggies[] = {new BlackOlives(),
-                new Spinach(),
-                new Eggplant()};
+        Veggies veggies[] = {new BlackOlives(), new Spinach(), new Eggplant()};
         return veggies;
     }
 
