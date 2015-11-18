@@ -1,8 +1,8 @@
-package simplePizzaFactory;
+package simple_pizza_factory.pizzas;
 
 public class VeggiePizza extends Pizza {
     public VeggiePizza() {
-        name = "Veggie simplePizzaFactory.Pizza";
+        name = "Veggie simple_pizza_factory.pizzas.Pizza";
         dough = "Crust";
         sauce = "Marinara sauce";
         toppings.add("Shredded mozzarella");

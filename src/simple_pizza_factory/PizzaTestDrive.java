@@ -1,4 +1,6 @@
-package simplePizzaFactory;
+package simple_pizza_factory;
+
+import simple_pizza_factory.pizzas.Pizza;
 
 public class PizzaTestDrive {
 

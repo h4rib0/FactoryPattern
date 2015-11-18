@@ -1,10 +1,10 @@
-package simplePizzaFactory;
+package simple_pizza_factory.pizzas;
 
 public class CheesePizza extends Pizza {
     public CheesePizza() {
-        name = "Cheese simplePizzaFactory.Pizza";
+        name = "Cheese simple_pizza_factory.pizzas.Pizza";
         dough = "Regular Crust";
-        sauce = "Marinara simplePizzaFactory.Pizza Sauce";
+        sauce = "Marinara simple_pizza_factory.pizzas.Pizza Sauce";
         toppings.add("Fresh Mozzarella");
         toppings.add("Parmesan");
     }
